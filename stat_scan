@@ -1,0 +1,22 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-04-17 21:30 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00018s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 ba:a9:00:12:9b:b5:30:56:9b:e4:ed:7c:35:c6:0a:16 (RSA)
+|   256 5f:3a:fe:45:ad:62:dc:a1:3a:5b:9a:81:fa:45:c8:d6 (ECDSA)
+|_  256 ce:4e:dc:9d:7e:6b:71:56:63:cc:a2:82:22:21:f0:8d (EdDSA)
+631/tcp open  ipp     CUPS 2.2
+| http-methods: 
+|_  Potentially risky methods: PUT
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: CUPS/2.2 IPP/2.1
+|_http-title: Home - CUPS 2.2.7
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.71 seconds
