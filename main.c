@@ -199,7 +199,10 @@ void main()
 				ch_form = newtRunForm(sp_res);			
 				free(scan_res);
 			}
-		} 
+		}  else if(ch_form == btn_exit)
+		{
+			newtFinished();
+		}
     
     }while(ch_form != btn_exit);    
 
